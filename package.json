@@ -1,0 +1,30 @@
+{
+  "name": "eh-resume",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The resume of Espen Hovlandsdal",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexxars/resume.git"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "jsonresume"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "CC BY-NC-ND",
+  "bugs": {
+    "url": "https://github.com/rexxars/resume/issues"
+  },
+  "homepage": "https://github.com/rexxars/resume",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "jsonschema": "^1.0.0",
+    "resume-schema": "0.0.15"
+  }
+}
