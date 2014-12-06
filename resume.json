@@ -1,0 +1,124 @@
+{
+  "basics": {
+    "name": "Espen Hovlandsdal",
+    "label": "Programmer",
+    "picture": "http://rexxars.com/avatar-large.jpg",
+    "email": "espen@hovlandsdal.com",
+    "phone": "+47 482 77 210",
+    "website": "https://github.com/rexxars",
+    "summary": "Espen has been doing web development for as long as he can remember. He is currently a software architect at the largest online newspaper in Norway, Verdens Gang. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.",
+    "location": {
+      "address": "Dr. Dedichens vei 100",
+      "postalCode": "0675",
+      "city": "Oslo",
+      "countryCode": "NO"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "rexxars",
+        "url": "https://twitter.com/rexxars"
+      },
+      {
+        "network": "GitHub",
+        "username": "rexxars",
+        "url": "https://github.com/rexxars"
+      },
+      {
+        "network": "Facebook",
+        "username": "rexxars",
+        "url": "https://www.facebook.com/rexxars"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Verdens Gang AS",
+      "position": "Software Architect",
+      "website": "http://www.vg.no/",
+      "startDate": "2010-09-01",
+      "summary": "VG is a tabloid newspaper and the most read news site in Norway, and develops and maintain a range of other, related and unrelated services.",
+      "highlights": [
+        "Developed a social network where pet owners can share stories, pictures, videos and experiences. User-created groups and \"herds\" based on their pets species is a key feature.",
+        "Created a site to gather all the stories from Norwegians around the world, sharing how we experienced July 22nd 2011, when Norway lost 77 lives to terrorist attacks.",
+        "Built service to allow searching the tax returns of citizens, comparing the income and tax levels of municipalities, zip codes and similar."
+      ]
+    },
+    {
+      "company": "Go Mobile AS",
+      "position": "Developer",
+      "website": "http://gomobile.no/",
+      "startDate": "2005-06-01",
+      "endDate": "2010-08-31",
+      "summary": "Go Mobile is a consulting company which builds rich, interactive solutions for web and mobile platforms.",
+      "highlights": [
+        "Built new forum software for one of the largest online communities in Norway, currently over 40 million posts",
+        "Helped build a subscription-based service that helps people lose weight",
+        "Developed VG Live, a real-time sports update service alongside live, streaming video from sports matches"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Imbo",
+      "position": "Developer",
+      "website": "http://imbo.io/",
+      "startDate": "2011-03-29",
+      "summary": "Open-Source projects related to Imbo, the RESTful image transformation server."
+    }
+  ],
+  "education": [],
+  "awards": [
+    {
+      "title": "Digital Media Awards Europe 2013, Social Media Award",
+      "date": "2013-04-15",
+      "awarder": "WAN-IFRA",
+      "summary": "Min 22 Juli (\"My July 22nd\") won the top award in the social media category"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Javascript",
+        "PHP",
+        "Java",
+        "Python",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Web Frameworks",
+      "keywords": [
+        "Express",
+        "Hapi",
+        "Restify",
+        "Zend Framework",
+        "Silex"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MySQL",
+        "Redis",
+        "MongoDB",
+        "LevelDB",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Norwegian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "references": []
+}
