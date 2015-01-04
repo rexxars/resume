@@ -90,13 +90,23 @@
       ]
     },
     {
-      "name": "Web Frameworks",
+      "name": "Server Frameworks",
       "keywords": [
         "Express",
         "Hapi",
         "Restify",
         "Zend Framework",
         "Silex"
+      ]
+    },
+    {
+      "name": "Frontend Frameworks",
+      "keywords": [
+        "React",
+        "jQuery",
+        "Backbone.js",
+        "AngularJS",
+        "D3"
       ]
     },
     {

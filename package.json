@@ -5,7 +5,10 @@
   "description": "The resume of Espen Hovlandsdal",
   "main": "index.js",
   "scripts": {
-    "test": "node test/*.js"
+    "test": "node test/*.js",
+    "fixurls": "node scripts/https-rewrite.js",
+    "export": "resume export resume --format html --theme kendall && npm run fixurls",
+    "build": "npm run test && npm run export"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
   "dependencies": {
     "colors": "^1.0.3",
     "jsonschema": "^1.0.0",
+    "resume-cli": "^0.3.11",
     "resume-schema": "0.0.15"
   }
 }
