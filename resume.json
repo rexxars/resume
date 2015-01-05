@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Espen Hovlandsdal",
-    "label": "Programmer",
+    "label": "Full-stack developer",
     "picture": "http://rexxars.com/avatar-large.jpg",
     "email": "espen@hovlandsdal.com",
     "phone": "+47 482 77 210",
-    "website": "https://github.com/rexxars",
+    "website": "http://espen.codes",
     "summary": "Espen has been doing web development for as long as he can remember. He is currently a software architect at the largest online newspaper in Norway, Verdens Gang. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.",
     "location": {
       "address": "Dr. Dedichens vei 100",
@@ -28,6 +28,10 @@
         "network": "Facebook",
         "username": "rexxars",
         "url": "https://www.facebook.com/rexxars"
+      },
+      {
+        "network": "Skype",
+        "username": "skype:espen-hovlandsdal?chat"
       }
     ]
   },
@@ -37,11 +41,21 @@
       "position": "Software Architect",
       "website": "http://www.vg.no/",
       "startDate": "2010-09-01",
-      "summary": "VG is a tabloid newspaper and the most read news site in Norway, and develops and maintain a range of other, related and unrelated services.",
+      "summary": "VG is a tabloid newspaper and the most read news site in Norway. Worked on a large range of products, everything from internal APIs and microservices to frontend and backend coding a social network.",
       "highlights": [
         "Developed a social network where pet owners can share stories, pictures, videos and experiences. User-created groups and \"herds\" based on their pets species is a key feature.",
         "Created a site to gather all the stories from Norwegians around the world, sharing how we experienced July 22nd 2011, when Norway lost 77 lives to terrorist attacks.",
         "Built service to allow searching the tax returns of citizens, comparing the income and tax levels of municipalities, zip codes and similar."
+      ]
+    },
+    {
+      "company": "VaffelNinja AS",
+      "position": "Chief Technology Officer",
+      "website": "http://vaffel.ninja/",
+      "startDate": "2014-08-24",
+      "summary": "VaffelNinja is a small Oslo-based company with a passion for open source and the web. We're currently working on a few secret projects, as well as maintaining React-Components.com.",
+      "highlights": [
+        "Created the fully open-source React-Components.com - built with and for React.JS."
       ]
     },
     {
@@ -50,7 +64,7 @@
       "website": "http://gomobile.no/",
       "startDate": "2005-06-01",
       "endDate": "2010-08-31",
-      "summary": "Go Mobile is a consulting company which builds rich, interactive solutions for web and mobile platforms.",
+      "summary": "Go Mobile is a consulting company which builds rich, interactive solutions for web and mobile platforms. Worked on several backends for mobile applications, and spent most of the time as a consultant working for Verdens Gang AS.",
       "highlights": [
         "Built new forum software for one of the largest online communities in Norway, currently over 40 million posts",
         "Helped build a subscription-based service that helps people lose weight",
