@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/*.js",
-    "fixurls": "node scripts/https-rewrite.js",
-    "export": "resume export resume --format html --theme kendall && npm run fixurls",
+    "fix": "node scripts/https-rewrite.js && node scripts/fix-skype.js",
+    "export": "resume export resume --format html --theme kendall && npm run fix",
     "build": "npm run test && npm run export"
   },
   "repository": {

@@ -31,7 +31,8 @@
       },
       {
         "network": "Skype",
-        "username": "skype:espen-hovlandsdal?chat"
+        "username": "espen-hovlandsdal",
+        "url": "skype:espen-hovlandsdal?chat"
       }
     ]
   },
