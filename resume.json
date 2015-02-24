@@ -80,6 +80,20 @@
       "website": "http://imbo.io/",
       "startDate": "2011-03-29",
       "summary": "Open-Source projects related to Imbo, the RESTful image transformation server."
+    },
+    {
+      "organization": "TechShock",
+      "position": "Organizer",
+      "website": "http://www.meetup.com/techshock/",
+      "startDate": "2013-08-26",
+      "summary": "Oslo-based meetup group for web and mobile developers. All talks are held in English, and there are always social events after each meetup for those interested in continuing the discussion over a beer or two."
+    },
+    {
+      "organization": "NodeConf One-Shot Oslo",
+      "position": "Organizer",
+      "website": "http://oslo.nodeconf.com/",
+      "startDate": "2015-02-01",
+      "summary": "Single day, single track, non-profit node.js conference"
     }
   ],
   "education": [],
