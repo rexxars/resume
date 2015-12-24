@@ -6,7 +6,7 @@
     "email": "espen@hovlandsdal.com",
     "phone": "+47 482 77 210",
     "website": "http://espen.codes",
-    "summary": "Espen has been doing web development for as long as he can remember. He is currently a software architect at the largest online newspaper in Norway, Verdens Gang. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.",
+    "summary": "Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at one of Norway's most creative and talented digital agencies, Bengler. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.",
     "location": {
       "address": "Dr. Dedichens vei 100",
       "postalCode": "0675",
@@ -38,10 +38,19 @@
   },
   "work": [
     {
+      "company": "Bengler AS",
+      "position": "Full-stack developer",
+      "website": "http://bengler.no/",
+      "startDate": "2016-01-01",
+      "summary": "Bengler invents unlikely and interesting uses for technology.",
+      "highlights": []
+    },
+    {
       "company": "Verdens Gang AS",
       "position": "Software Architect",
       "website": "http://www.vg.no/",
       "startDate": "2010-09-01",
+      "endDate": "2015-12-31",
       "summary": "VG is a tabloid newspaper and the most read news site in Norway. Worked on a large range of products, everything from internal APIs and microservices to frontend and backend coding a social network.",
       "highlights": [
         "Developed a social network where pet owners can share stories, pictures, videos and experiences. User-created groups and \"herds\" based on their pets species is a key feature.",
@@ -86,6 +95,7 @@
       "position": "Organizer",
       "website": "http://www.meetup.com/techshock/",
       "startDate": "2013-08-26",
+      "endDate": "2015-12-31",
       "summary": "Oslo-based meetup group for web and mobile developers. All talks are held in English, and there are always social events after each meetup for those interested in continuing the discussion over a beer or two."
     },
     {
@@ -93,6 +103,7 @@
       "position": "Organizer",
       "website": "http://oslo.nodeconf.com/",
       "startDate": "2015-02-01",
+      "endDate": "2015-06-01",
       "summary": "Single day, single track, non-profit node.js conference"
     }
   ],

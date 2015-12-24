@@ -93,6 +93,7 @@ blockquote {
 #awards,
 #education{
   margin-top: 20px;
+  margin-bottom: 0;
   position: relative;
   padding: 1em 0;
   list-style: none;
@@ -124,7 +125,7 @@ blockquote {
 }
 #awards .year,
 #education .year{
-  width: 10%;
+  width: 14%;
   background: #fff;
   padding: 10px;
   font-weight: 700;
@@ -132,7 +133,7 @@ blockquote {
 }
 #awards .description,
 #education .description{
-  width: 85%;
+  width: 83%;
   display: inline-block;
   background: #eee;
   margin-bottom: 10px;
@@ -195,8 +196,15 @@ blockquote {
   line-height: 1.5em;
 }
 .job .highlights{
-  padding: 10px 0;
+  padding: 5px 0;
   font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
 }
 .publication .name{
   font-size: 1em;
@@ -278,27 +286,6 @@ blockquote {
   border-bottom: 1px solid #eee;
 }
 
-@media (min-width: 500px) {
-  #education .description{
-    width: 85%;
-  }
-}
-@media (min-width: 768px) {
-  #education .description{
-    width: 85%;
-  }
-}
-@media (min-width: 992px) {
-  #education .description{
-    width: 87%;
-  }
-}
-@media (min-width: 1200px) {
-  #education .description{
-    width: 90%;
-  }
-}
-
     </style>
     <style type="text/css" media="print">
     body {
@@ -333,6 +320,10 @@ a[href]:after {
   margin-bottom: 5px;
 }
 
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
 #awards:before,
 #education:before {
   background: none;
@@ -387,7 +378,7 @@ a[href]:after {
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="http:&#x2F;&#x2F;rexxars.com&#x2F;avatar-large.jpg" alt="avatar">
+              <img src="http:&#x2F;&#x2F;espen.codes&#x2F;assets&#x2F;img&#x2F;avatar-large.jpg" alt="avatar">
             </div>
             <div id="text-header" >
               <h1>Espen Hovlandsdal<br><span>Full-stack developer</span></h1>
@@ -400,7 +391,7 @@ a[href]:after {
           <!-- ABOUT ME -->
           <div class="box">
             <h2><i class="fa fa-user ico"></i> About</h2>
-            <p>Espen has been doing web development for as long as he can remember. He is currently a software architect at the largest online newspaper in Norway, Verdens Gang. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.</p>
+            <p>Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at one of Norway's most creative and talented digital agencies, Bengler. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.</p>
           </div>
           <!-- WORK EXPERIENCE -->
           <div class="box">
@@ -408,15 +399,34 @@ a[href]:after {
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
+                    <div class="where">Bengler AS</div>
+                    <div class="address">
+                      <a href="http:&#x2F;&#x2F;bengler.no&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;bengler.no&#x2F;</a>
+                    </div>
+                    <div class="year">January 2016 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Full-stack developer</div>
+                    <div class="description">
+                      Bengler invents unlikely and interesting uses for technology.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
                     <div class="where">Verdens Gang AS</div>
                     <div class="address">
                       <a href="http:&#x2F;&#x2F;www.vg.no&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.vg.no&#x2F;</a>
                     </div>
-                    <div class="year">September 2010 – Present</div>
+                    <div class="year">September 2010 – December 2015</div>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-offset-1 col-xs-11">
+                  <div class="job-details col-xs-11">
                     <div class="profession">Software Architect</div>
                     <div class="description">
                       VG is a tabloid newspaper and the most read news site in Norway. Worked on a large range of products, everything from internal APIs and microservices to frontend and backend coding a social network.
@@ -441,7 +451,7 @@ a[href]:after {
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-offset-1 col-xs-11">
+                  <div class="job-details col-xs-11">
                     <div class="profession">Chief Technology Officer</div>
                     <div class="description">
                       VaffelNinja is a small Oslo-based company with a passion for open source and the web. We're currently working on a few secret projects, as well as maintaining React-Components.com.
@@ -464,7 +474,7 @@ a[href]:after {
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-offset-1 col-xs-11">
+                  <div class="job-details col-xs-11">
                     <div class="profession">Developer</div>
                     <div class="description">
                       Go Mobile is a consulting company which builds rich, interactive solutions for web and mobile platforms. Worked on several backends for mobile applications, and spent most of the time as a consultant working for Verdens Gang AS.
@@ -522,7 +532,7 @@ a[href]:after {
                     <div class="address">
                       <a href="http:&#x2F;&#x2F;www.meetup.com&#x2F;techshock&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.meetup.com&#x2F;techshock&#x2F;</a>
                     </div>
-                    <div class="year">August 2013 – Present</div>
+                    <div class="year">August 2013 – December 2015</div>
                   </div>
                 </div>
                 <div class="row">
@@ -541,7 +551,7 @@ a[href]:after {
                     <div class="address">
                       <a href="http:&#x2F;&#x2F;oslo.nodeconf.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;oslo.nodeconf.com&#x2F;</a>
                     </div>
-                    <div class="year">February 2015 – Present</div>
+                    <div class="year">February 2015 – June 2015</div>
                   </div>
                 </div>
                 <div class="row">
@@ -570,7 +580,8 @@ a[href]:after {
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:espen@hovlandsdal.com" target="_blank">espen@hovlandsdal.com</a></div>
+              <div class="title only pull-right"><a href="/cdn-cgi/l/email-protection#20455350454e60484f564c414e445344414c0e434f4d" target="_blank"><span class="__cf_email__" data-cfemail="096c7a796c674961667f6568676d7a6d6865276a6664">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a></div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
@@ -670,5 +681,10 @@ a[href]:after {
     <!-- BOOTSTRAP -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-  </body>
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
 </html>
