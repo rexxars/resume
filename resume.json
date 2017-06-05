@@ -2,10 +2,10 @@
   "basics": {
     "name": "Espen Hovlandsdal",
     "label": "Full-stack developer",
-    "picture": "http://espen.codes/assets/img/avatar-large.jpg",
+    "picture": "https://espen.codes/assets/img/avatar-large.jpg",
     "email": "espen@hovlandsdal.com",
     "phone": "+47 482 77 210",
-    "website": "http://espen.codes",
+    "website": "https://espen.codes",
     "summary": "Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at one of Norway's most creative and talented digital agencies, Bengler. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.",
     "location": {
       "address": "Dr. Dedichens vei 100",
