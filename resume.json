@@ -6,7 +6,7 @@
     "email": "espen@hovlandsdal.com",
     "phone": "+47 482 77 210",
     "website": "https://espen.codes",
-    "summary": "Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at one of Norway's most creative and talented digital agencies, Bengler. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.",
+    "summary": "Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at Sanity.io - a platform for structured content, delivering developer-friendly APIs and a modern, collaborative, headless content management system. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, taking his miniature schnauzer for long walks or drinking craft beer and thinking about the next project to play with.",
     "location": {
       "address": "Dr. Dedichens vei 100",
       "postalCode": "0675",
@@ -25,11 +25,6 @@
         "url": "https://github.com/rexxars"
       },
       {
-        "network": "Facebook",
-        "username": "rexxars",
-        "url": "https://www.facebook.com/rexxars"
-      },
-      {
         "network": "Skype",
         "username": "espen-hovlandsdal",
         "url": "skype:espen-hovlandsdal?chat"
@@ -38,13 +33,30 @@
   },
   "work": [
     {
+      "company": "Sanity.io",
+      "position": "Full-stack developer",
+      "website": "https://www.sanity.io/",
+      "startDate": "2018-03-01",
+      "summary": "Structured content platform with a customizable, headless CMS built in React.",
+      "highlights": [
+        "Created the command-line tool, development server and command-line signup experience",
+        "Made microservices for handling users, projects, datasets, webhooks and deployments",
+        "Developed the building blocks for the headless content management system user interface",
+        "Created API gateway plugins for handling sessions, cross-origin security and caching",
+        "Built a real-time image transformation service for resizing, cropping etc",
+        "Created libraries for rendering and manipulating the portable text format"
+      ]
+    },
+    {
       "company": "Bengler AS",
       "position": "Full-stack developer",
       "website": "http://bengler.no/",
       "startDate": "2016-01-01",
+      "endDate": "2018-02-28",
       "summary": "Bengler invents unlikely and interesting uses for technology.",
       "highlights": [
-        "Developing an awesome, headless content management system using React and Node.js, focusing on a great developer experience."
+        "Developed the ground work and initial version of Sanity, a headless content management system using React and Node.js, focusing on a great developer experience.",
+        "For fun: Built an automatic foosball score keeping and player ranking system connected to a physical foosball table"
       ]
     },
     {
@@ -131,10 +143,13 @@
     {
       "name": "Programming Languages",
       "keywords": [
-        "Javascript",
+        "JavaScript",
+        "TypeScript",
+        "Go",
         "PHP",
         "Java",
         "Python",
+        "Lua",
         "HTML",
         "CSS"
       ]
@@ -144,6 +159,7 @@
       "keywords": [
         "Express",
         "Hapi",
+        "Next.js",
         "Restify",
         "Zend Framework",
         "Silex"
@@ -153,20 +169,21 @@
       "name": "Frontend Frameworks",
       "keywords": [
         "React",
+        "Gatsby",
+        "Backbone",
+        "Angular",
         "jQuery",
-        "Backbone.js",
-        "AngularJS",
         "D3"
       ]
     },
     {
       "name": "Databases",
       "keywords": [
+        "PostgreSQL",
         "MySQL",
         "Redis",
         "MongoDB",
-        "LevelDB",
-        "PostgreSQL"
+        "LevelDB"
       ]
     }
   ],

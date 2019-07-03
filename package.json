@@ -27,8 +27,9 @@
   "homepage": "https://github.com/rexxars/resume",
   "dependencies": {
     "colors": "^1.0.3",
+    "jsonresume-theme-kendall": "^0.1.19",
     "jsonschema": "^1.0.0",
-    "resume-cli": "^0.3.11",
-    "resume-schema": "0.0.15"
+    "resume-cli": "^1.1.2",
+    "resume-schema": "0.0.17"
   }
 }

@@ -21,7 +21,7 @@ var result = v.validate(resume, resumeSchema);
 if (result.errors && result.errors.length) {
     console.log(red('Errors:'));
 
-    result.errors.map(printError);
+    result.errors.forEach(printError);
 }
 
 if (!result.errors || !result.errors.length) {

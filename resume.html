@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume of Espen Hovlandsdal</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style type="text/css">
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 @charset "utf-8";
@@ -304,6 +304,17 @@ a[href]:after {
 .box {
   margin-bottom: -10px;
 }
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
 .col-sm-5{
   width: 40%;
   padding: 0 15px;
@@ -378,7 +389,7 @@ a[href]:after {
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="http:&#x2F;&#x2F;espen.codes&#x2F;assets&#x2F;img&#x2F;avatar-large.jpg" alt="avatar">
+              <img src="https:&#x2F;&#x2F;espen.codes&#x2F;assets&#x2F;img&#x2F;avatar-large.jpg" alt="avatar">
             </div>
             <div id="text-header" >
               <h1>Espen Hovlandsdal<br><span>Full-stack developer</span></h1>
@@ -391,7 +402,7 @@ a[href]:after {
           <!-- ABOUT ME -->
           <div class="box">
             <h2><i class="fa fa-user ico"></i> About</h2>
-            <p>Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at one of Norway's most creative and talented digital agencies, Bengler. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, drinking craft beer and thinking about the next project to play with.</p>
+            <p>Espen has been doing web development for as long as he can remember. He is currently a full-stack developer at Sanity.io - a platform for structured content, delivering developer-friendly APIs and a modern, collaborative, headless content management system. With a never-ending enthusiasm for programming, he loves taking on projects big and small, and is always seeking to find new ways to challenge himself. When he can break away from coding he enjoys playing board games, taking his miniature schnauzer for long walks or drinking craft beer and thinking about the next project to play with.</p>
           </div>
           <!-- WORK EXPERIENCE -->
           <div class="box">
@@ -399,11 +410,39 @@ a[href]:after {
               <div class="job clearfix">
                 <div class="row">
                   <div class="details">
+                    <div class="where">Sanity.io</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.sanity.io&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;www.sanity.io&#x2F;</a>
+                    </div>
+                    <div class="year">March 2018 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Full-stack developer</div>
+                    <div class="description">
+                      Structured content platform with a customizable, headless CMS built in React.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Created the command-line tool, development server and command-line signup experience</li>
+                        <li class="list-group-item">Made microservices for handling users, projects, datasets, webhooks and deployments</li>
+                        <li class="list-group-item">Developed the building blocks for the headless content management system user interface</li>
+                        <li class="list-group-item">Created API gateway plugins for handling sessions, cross-origin security and caching</li>
+                        <li class="list-group-item">Built a real-time image transformation service for resizing, cropping etc</li>
+                        <li class="list-group-item">Created libraries for rendering and manipulating the portable text format</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
                     <div class="where">Bengler AS</div>
                     <div class="address">
                       <a href="http:&#x2F;&#x2F;bengler.no&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;bengler.no&#x2F;</a>
                     </div>
-                    <div class="year">January 2016 – Present</div>
+                    <div class="year">January 2016 – February 2018</div>
                   </div>
                 </div>
                 <div class="row">
@@ -413,7 +452,8 @@ a[href]:after {
                       Bengler invents unlikely and interesting uses for technology.
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">
-                        <li class="list-group-item">Developing an awesome, headless content management system using React and Node.js, focusing on a great developer experience.</li>
+                        <li class="list-group-item">Developed the ground work and initial version of Sanity, a headless content management system using React and Node.js, focusing on a great developer experience.</li>
+                        <li class="list-group-item">For fun: Built an automatic foosball score keeping and player ranking system connected to a physical foosball table</li>
                       </ul>
                     </div>
                   </div>
@@ -595,7 +635,7 @@ a[href]:after {
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
               <div class="title pull-right">Dr. Dedichens vei 100</div>
-              <div class="description pull-right">Oslo, 0675 NO</div>
+              <div class="title  pull-right">Oslo 0675 NO</div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
@@ -603,26 +643,21 @@ a[href]:after {
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="/cdn-cgi/l/email-protection#8de8fefde8e3cde5e2fbe1ece3e9fee9ece1a3eee2e0" target="_blank"><span class="__cf_email__" data-cfemail="a1c4d2d1c4cfe1c9ced7cdc0cfc5d2c5c0cd8fc2cecc">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></div>
+              <div class="title only pull-right"><a href="mailto:espen@hovlandsdal.com" target="_blank">espen@hovlandsdal.com</a></div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="http:&#x2F;&#x2F;espen.codes" target="_blank">http:&#x2F;&#x2F;espen.codes</a></div>
+              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;espen.codes" target="_blank">https:&#x2F;&#x2F;espen.codes</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-twitter-square fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
               <div class="title pull-right">Twitter</div>
               <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;rexxars" target="_blank">rexxars</a></div>
             </div>
             <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-github-square fa-fw"></span></div>
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
               <div class="title pull-right">GitHub</div>
               <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;rexxars" target="_blank">rexxars</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-facebook-square fa-fw"></span></div>
-              <div class="title pull-right">Facebook</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.facebook.com&#x2F;rexxars" target="_blank">rexxars</a></div>
             </div>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
@@ -639,10 +674,13 @@ a[href]:after {
                   
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">JavaScript</span>
+                <span class= "skill badge">TypeScript</span>
+                <span class= "skill badge">Go</span>
                 <span class= "skill badge">PHP</span>
                 <span class= "skill badge">Java</span>
                 <span class= "skill badge">Python</span>
+                <span class= "skill badge">Lua</span>
                 <span class= "skill badge">HTML</span>
                 <span class= "skill badge">CSS</span>
               </div>
@@ -655,6 +693,7 @@ a[href]:after {
               <div class="col-sm-offset-1 col-sm-12 clearfix">
                 <span class= "skill badge">Express</span>
                 <span class= "skill badge">Hapi</span>
+                <span class= "skill badge">Next.js</span>
                 <span class= "skill badge">Restify</span>
                 <span class= "skill badge">Zend Framework</span>
                 <span class= "skill badge">Silex</span>
@@ -667,9 +706,10 @@ a[href]:after {
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
                 <span class= "skill badge">React</span>
+                <span class= "skill badge">Gatsby</span>
+                <span class= "skill badge">Backbone</span>
+                <span class= "skill badge">Angular</span>
                 <span class= "skill badge">jQuery</span>
-                <span class= "skill badge">Backbone.js</span>
-                <span class= "skill badge">AngularJS</span>
                 <span class= "skill badge">D3</span>
               </div>
             </div>
@@ -679,11 +719,11 @@ a[href]:after {
                   
               </div>
               <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">PostgreSQL</span>
                 <span class= "skill badge">MySQL</span>
                 <span class= "skill badge">Redis</span>
                 <span class= "skill badge">MongoDB</span>
                 <span class= "skill badge">LevelDB</span>
-                <span class= "skill badge">PostgreSQL</span>
               </div>
             </div>
           </div>
@@ -698,10 +738,6 @@ a[href]:after {
         </div>
       </div>
     </div>
-    <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- BOOTSTRAP -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+  </body>
 </html>
